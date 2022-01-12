@@ -1,0 +1,101 @@
+.form__select {
+  width: 200px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+
+.btn {
+  background: #fff;
+}
+
+.btn:hover {
+  background: #ffc107;
+}
+
+.btn:active {
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.card-img {
+  width: 157px;
+}
+
+.card-body {
+  border-top: 1px solid #000;
+}
+
+.card-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  max-width: 245px;
+  min-height: 390px;
+  margin: 15px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.icon {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.card-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  margin-right: 4px;
+  min-height: 240px;
+}
+
+.card-title-box {
+    position: relative;
+  box-sizing: border-box;
+  border-top: 2px solid #000000;
+  padding: 5px 15px;
+}
+
+.heart {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 25px;
+    right: 20px;
+}
+
+.card-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.card-desc {
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.card-buttom {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px 15px  15px ;
+}
+
+.card-kg {
+  margin-right: 20px;
+}
