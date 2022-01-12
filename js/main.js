@@ -29,8 +29,6 @@ for (let pokemon of pokemons) {
   newCardKg.setAttribute("class", "card-kg");
   newCardage.setAttribute("class", "card-age");
 
-  // newCardDesc.style.width = "18rem";
-
   //TEXT CONTENT
   newCardTitle.textContent = pokemon.name;
   newCardDesc.textContent = pokemon.candy;
@@ -48,6 +46,4 @@ for (let pokemon of pokemons) {
   newCard.appendChild(newCardBottom)
   newCardBottom.appendChild(newCardKg)
   newCardBottom.appendChild(newCardage)
-
-  console.log(newCard)
 }
